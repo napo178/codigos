@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 11 19:53:04 2019
-
-@author: juangabriel
-"""
 
 # Regresión Bosques Aleatorios
 
