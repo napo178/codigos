@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar  7 19:04:40 2019
 
-@author: juangabriel
-"""
 
 # Regresión con Árboles de Decisión
 
