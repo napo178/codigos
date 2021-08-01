@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Created on Wed Feb 27 19:43:11 2019
 
-
-@author: napojrperez
+@author: juangabriel
 """
 
 # Plantilla de Pre Procesado
