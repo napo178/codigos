@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled19.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMuQsfrQGQCIa5HRYKGqGk/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/napo178/codigos/blob/main/Red%20neuronal%20casa\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "9YM004ZJLmxl"
+      },
+      "source": [
+        "# Tratamiento de datos\n",
+        "# ==============================================================================\n",
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "\n",
+        "# Gráficos\n",
+        "# ==============================================================================\n",
+        "import matplotlib.pyplot as plt\n",
+        "import seaborn as sns\n",
+        "%matplotlib inline\n",
+        "plt.style.use('fivethirtyeight')\n",
+        "\n",
+        "# Modelado\n",
+        "# ==============================================================================\n",
+        "from sklearn.neural_network import MLPRegressor\n",
+        "from sklearn.compose import ColumnTransformer\n",
+        "from sklearn.preprocessing import OneHotEncoder\n",
+        "from sklearn.preprocessing import StandardScaler\n",
+        "from sklearn.compose import make_column_selector\n",
+        "from sklearn.pipeline import Pipeline\n",
+        "from sklearn.metrics import mean_squared_error\n",
+        "from sklearn.model_selection import RandomizedSearchCV\n",
+        "from sklearn.model_selection import KFold\n",
+        "from sklearn import set_config\n",
+        "import multiprocessing\n",
+        "\n",
+        "# Configuración warnings\n",
+        "# ==============================================================================\n",
+        "import warnings\n",
+        "warnings.filterwarnings('ignore')\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
